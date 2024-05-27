@@ -6,8 +6,9 @@ marca                       varchar(50) not null
 modello                     varchar(50) not null
 cavalli                     tinyint not null unsigned
 chilometri                  int unsigned
-anno_produzione             varchar(4)
+anno_produzione             YEAR
 categoria_auto              varchar(50)
+prezzo                      decimal(10,3) not null unsigned
 consumi                     float(2, 3) unsigned
 alimentazione_motore        varchar(20)                      
 ruote_motrici               tinyint
